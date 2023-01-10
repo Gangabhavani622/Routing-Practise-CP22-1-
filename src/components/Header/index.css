@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.nav-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 7px;
+  color: #555555;
+}
+
+.logo {
+  height: 65%;
+  width: 50%;
+}
+
+.component-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.component {
+  font-family: 'Roboto';
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 7px;
+  color: #555555;
+}
